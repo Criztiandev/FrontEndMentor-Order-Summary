@@ -5,7 +5,7 @@ function App() {
     <div className=" bg-primary-pb h-screen flex-center mob:bg-mobile mob:bg-cover mob:bg-top mob:bg-no-repeat desc:bg-desc desc:bg-center-top desc:bg-contain desc:bg-no-repeat">
 
         
-      <main className=' desc:w-400px mob:w-325px bg-white   rounded-[1rem] text-center shadow-xl'>
+      <main className=' desc:w-400px mob:w-400px bg-white   rounded-[1rem] text-center shadow-xl'>
             <img src={hero} alt="hero-img" className='rounded-t-[1rem]' />
             <article>
               <h1 className='text-25px text-neutral-dk font-bold m-4 '>Order Summary</h1>
@@ -17,15 +17,17 @@ function App() {
               <img src={music} alt="music-icon" />
 
               <div className="">
-                <div className='font-bold text-neutral-dk'>Annual Plan</div>
-                <span>$59.99/year</span>
+                <h2 className='font-bold text-neutral-dk'>Annual Plan</h2>
+                <span className='text-neutral-desb'>$59.99/year</span>
               </div>
 
-              <a href='$' className='text-primary-bl font-semibold border-b-2 border-primary-bl cursor-pointer'>Change</a>
+              <a href='$' className='text-primary-bl font-semibold border-b-2 border-primary-bl cursor-pointer hover:text-primary-bl-50 hover:border-primary-bl-50'>Change</a>
             </section>
 
             <section>
                 <button className='bg-primary-bl text-18px text-white font-bold w-[85%] p-4 mb-2 rounded-xl shadow-lg shadow-primary-bl-50 hover:bg-primary-bl-50'>Proceed to Payment</button>
+
+
                 <button className='text-neutral-dk-50 text-18px text-white font-bold w-[85%] p-3 mb-4 rounded-xl hover:text-neutral-dk'>Cancel Order</button>
             </section>
       </main>
