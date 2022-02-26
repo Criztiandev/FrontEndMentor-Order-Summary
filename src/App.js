@@ -5,12 +5,12 @@ function App() {
     <div className=" bg-primary-pb h-screen flex-center mob:bg-mobile mob:bg-cover mob:bg-top mob:bg-no-repeat desc:bg-desc desc:bg-center-top desc:bg-contain desc:bg-no-repeat">
 
         
-      <main className=' w-300px bg-white   rounded-[1rem] text-center shadow-xl'>
+      <main className=' w-350px bg-white   rounded-[1rem] text-center shadow-xl'>
             <img src={hero} alt="hero-img" className='rounded-t-[1rem]' />
             <article>
               <h1 className='text-25px text-neutral-dk font-bold m-4 '>Order Summary</h1>
 
-              <p className='text-16px text-neutral-desb font-medium  text-center px-6'>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+              <p className='text-16px text-neutral-desb font-medium  text-center px-10'>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
             </article>
 
             <section className='bg-neutral-vpl flex justify-between items-center m-6 p-4 rounded-xl'>
