@@ -5,7 +5,7 @@ function App() {
     <div className=" bg-primary-pb h-screen flex-center mob:bg-mobile mob:bg-cover mob:bg-top mob:bg-no-repeat desc:bg-desc desc:bg-center-top desc:bg-contain desc:bg-no-repeat">
 
         
-      <main className='w-325px bg-white   rounded-[1rem] text-center shadow-xl'>
+      <main className=' desc:w-400px mob:w-325px bg-white   rounded-[1rem] text-center shadow-xl'>
             <img src={hero} alt="hero-img" className='rounded-t-[1rem]' />
             <article>
               <h1 className='text-25px text-neutral-dk font-bold m-4 '>Order Summary</h1>
@@ -17,7 +17,7 @@ function App() {
               <img src={music} alt="music-icon" />
 
               <div className="">
-                <h3 className='font-bold text-neutral-dk'>Annual Plan</h3>
+                <div className='font-bold text-neutral-dk'>Annual Plan</div>
                 <span>$59.99/year</span>
               </div>
 
